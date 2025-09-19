@@ -35,6 +35,7 @@
 
 ### a. Terraform Infrastructure
 
+
 ### **1. Authentication : Logged in with az login and exported service-principal credentials for Terraform.**
 
 ### **2. Code Structure: Wrote main.tf, variables.tf and outputs.tf to define**
@@ -56,3 +57,26 @@
 `terraform plan`
 
 `terraform apply`
+
+
+### b. Cost Estimation & Difference
+
+
+### 1. Initial Estimate:
+
+`infracost breakdown --path . --format json --out-file cost-report.json`
+
+
+### 2.Cost Diff:
+
+`nfracost diff --path . --format json --out-file cost-diff.json`
+
+
+### c. Linting
+
+
+`tflint --init`
+
+`tflint`
+
+### Ensured Terraform code follows best practices and has no unused variables or invalid references.
