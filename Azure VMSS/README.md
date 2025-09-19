@@ -19,15 +19,15 @@
 
 ## Prerequisites
 
-     Azure Account & Subscription with permission to create compute/network resources
 
-     Azure CLI – for authentication and subscription management.
+### **1. Azure Account & Subscription with permission to create compute/network resources.**
 
-     Linux Environment / Terminal – to run all commands and tools
+### **2. Azure CLI – for authentication and subscription management.**
 
-     Infracost CLI – to generate cost estimation and cost-difference reports.
+### **3. TFSec – for security scanning, including custom policy checks.**
 
-     TFLint – to lint and validate Terraform code quality.
+### **4. Infracost CLI – to generate cost estimation and cost-difference reports.**
 
-     TFSec – for security scanning, including custom policy checks.
+### **5. TFLint – to lint and validate Terraform code quality.**
+
 
