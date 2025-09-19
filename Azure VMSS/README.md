@@ -80,3 +80,15 @@
 `tflint`
 
 ### Ensured Terraform code follows best practices and has no unused variables or invalid references.
+
+
+### d. Security Scanning
+
+
+### 1. Default Checks:
+
+`tfsec .`
+
+### 2. Custom Policies:
+
+`tfsec --config-file custom-tfsec.yml .`
