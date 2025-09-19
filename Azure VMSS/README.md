@@ -31,3 +31,28 @@
 ### **5. TFLint – to lint and validate Terraform code quality.**
 
 
+## Steps
+
+### a. Terraform Infrastructure
+
+#### **1. Authentication : Logged in with az login and exported service-principal credentials for Terraform.**
+
+#### **2. Code Structure: Wrote main.tf, variables.tf and outputs.tf to define**
+
+
+    Azure Resource Group
+
+    Virtual Network & Subnet
+
+    Load Balancer
+
+    azurerm_linux_virtual_machine_scale_set resource with auto-scaling rules
+    
+
+#### **3. Execution:**
+
+`terraform init`
+
+`terraform plan`
+
+`terraform apply`
