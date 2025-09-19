@@ -71,15 +71,12 @@
 `infracost breakdown --path . --format json --out-file cost-report.json`
 
 
-<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-51-41" src="https://github.com/user-attachments/assets/a132abf1-4d44-4f87-bb1c-db31459d89f2" />
-
-
 ### 2.Cost Diff:
 
 `nfracost diff --path . --format json --out-file cost-diff.json`
 
 
-<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-52-54" src="https://github.com/user-attachments/assets/ffb0f72f-0822-4011-bac9-9c876eca2176" />
+<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-51-41" src="https://github.com/user-attachments/assets/a132abf1-4d44-4f87-bb1c-db31459d89f2" />
 
 
 ### c. Linting
@@ -102,10 +99,13 @@
 
 `tfsec .`
 
+
+<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-52-54" src="https://github.com/user-attachments/assets/ffb0f72f-0822-4011-bac9-9c876eca2176" />
+
+
 ### 2. Custom Policies:
 
 `tfsec --config-file custom-tfsec.yml .`
-
 
 
 
