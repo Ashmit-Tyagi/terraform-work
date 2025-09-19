@@ -36,7 +36,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "vmss" {
 
   admin_ssh_key {
   username   = "azureuser"
-  public_key = file("/home/ashmit/.ssh/id_rsa_terraform.pub")
+  public_key = file("PATH TO YOUR PUBLIC KEY")
 }
   source_image_reference {
     publisher = "Canonical"
@@ -61,11 +61,6 @@ resource "azurerm_linux_virtual_machine_scale_set" "vmss" {
     storage_account_type = "Standard_LRS"
   }
 
-  tags = {
-    Environment = "dev"
-    Owner       = "infra-team"
-  }
-}
 
 resource "azurerm_monitor_autoscale_setting" "autoscale" {
   name                = "${var.vmss_name}-autoscale"
