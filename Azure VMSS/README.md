@@ -15,3 +15,19 @@
 ### **4. TFLint : Linter that checks Terraform code for best practices, errors, and unused declarations.**
 
 ### **5. TFSec : Static analysis for Terraform to detect security and compliance issues.**
+
+
+## Prerequisites
+
+     Azure Account & Subscription with permission to create compute/network resources
+
+     Azure CLI – for authentication and subscription management.
+
+     Linux Environment / Terminal – to run all commands and tools
+
+     Infracost CLI – to generate cost estimation and cost-difference reports.
+
+     TFLint – to lint and validate Terraform code quality.
+
+     TFSec – for security scanning, including custom policy checks.
+
