@@ -73,7 +73,7 @@
 
 ### 2.Cost Diff:
 
-`nfracost diff --path . --format json --out-file cost-diff.json`
+`infracost diff --path . --format json --out-file cost-diff.json`
 
 
 <img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-51-41" src="https://github.com/user-attachments/assets/a132abf1-4d44-4f87-bb1c-db31459d89f2" />
