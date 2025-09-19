@@ -59,6 +59,10 @@
 `terraform apply`
 
 
+<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-44-02" src="https://github.com/user-attachments/assets/44f417e4-8b11-4400-90d7-0c2785eb15e7" />
+
+
+
 ### b. Cost Estimation & Difference
 
 
@@ -67,9 +71,15 @@
 `infracost breakdown --path . --format json --out-file cost-report.json`
 
 
+<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-51-41" src="https://github.com/user-attachments/assets/a132abf1-4d44-4f87-bb1c-db31459d89f2" />
+
+
 ### 2.Cost Diff:
 
 `nfracost diff --path . --format json --out-file cost-diff.json`
+
+
+<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-52-54" src="https://github.com/user-attachments/assets/ffb0f72f-0822-4011-bac9-9c876eca2176" />
 
 
 ### c. Linting
@@ -82,6 +92,9 @@
 ### Ensured Terraform code follows best practices and has no unused variables or invalid references.
 
 
+<img width="1920" height="1200" alt="Screenshot from 2025-09-07 23-56-05" src="https://github.com/user-attachments/assets/3eab26b8-6b44-43ea-98cf-8c2d408d4e1c" />
+
+
 ### d. Security Scanning
 
 
@@ -92,3 +105,8 @@
 ### 2. Custom Policies:
 
 `tfsec --config-file custom-tfsec.yml .`
+
+
+### 6. Conclusion
+
+### Terraform for infrastructure + Infracost for cost control + TFLint for quality + TFSec for security. It mirrors real-world enterprise practices and builds confidence in deploying and maintaining scalable, secure, and cost-efficient cloud environments.
