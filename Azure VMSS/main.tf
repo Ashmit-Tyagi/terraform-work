@@ -36,7 +36,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "vmss" {
 
   admin_ssh_key {
   username   = "azureuser"
-  public_key = file("PATH TO YOUR PUBLIC KEY")
+  public_key = file("PATH OF PUBLIC KEY")
 }
   source_image_reference {
     publisher = "Canonical"
